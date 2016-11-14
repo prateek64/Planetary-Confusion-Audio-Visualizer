@@ -1,0 +1,759 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.cpp">
+			<Filter>addons\ofxAssimpModelLoader\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.cpp">
+			<Filter>addons\ofxAssimpModelLoader\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.cpp">
+			<Filter>addons\ofxAssimpModelLoader\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.cpp">
+			<Filter>addons\ofxAssimpModelLoader\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTBase.cpp">
+			<Filter>addons\ofxFFT\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTFile.cpp">
+			<Filter>addons\ofxFFT\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTLive.cpp">
+			<Filter>addons\ofxFFT\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFFT\libs\fft.cpp">
+			<Filter>addons\ofxFFT\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\ADSR.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Asymp.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BandedWG.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BeeThree.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BiQuad.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Blit.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BlitSaw.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BlitSquare.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BlowBotl.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BlowHole.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Bowed.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Brass.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Chorus.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Clarinet.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Delay.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\DelayA.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\DelayL.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Drummer.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Echo.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Envelope.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FileLoop.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FileRead.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FileWrite.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FileWvIn.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FileWvOut.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Fir.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Flute.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FM.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FMVoices.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FormSwep.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FreeVerb.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Granulate.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Guitar.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\HevyMetl.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Iir.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\JCRev.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\LentPitShift.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Mandolin.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Mesh2D.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Messager.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\MidiFileIn.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Modal.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\ModalBar.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Modulate.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Moog.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Noise.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\NRev.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\OnePole.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\OneZero.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\PercFlut.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Phonemes.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\PitShift.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Plucked.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\PoleZero.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\PRCRev.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Resonate.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Rhodey.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Sampler.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Saxofony.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Shakers.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Simple.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\SineWave.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\SingWave.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Sitar.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Skini.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Sphere.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\StifKarp.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Stk.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\TapDelay.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\TubeBell.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Twang.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\TwoPole.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\TwoZero.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Voicer.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\VoicForm.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Whistle.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Wurley.cpp">
+			<Filter>addons\ofxStk\libs\STK\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAssimpModelLoader">
+			<UniqueIdentifier>{DE65D9F7-840A-CD0A-A555-EA3B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAssimpModelLoader\src">
+			<UniqueIdentifier>{B84008DC-4B5E-271B-05DA-D8C8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAssimpModelLoader\libs">
+			<UniqueIdentifier>{3D854F79-FA4A-75FA-FC0A-2B25}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAssimpModelLoader\libs\assimp">
+			<UniqueIdentifier>{FE8B5295-D3A7-B9CD-89C9-2613}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAssimpModelLoader\libs\assimp\include">
+			<UniqueIdentifier>{EDC34C4F-5D44-FB76-337E-EE48}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAssimpModelLoader\libs\assimp\include\assimp">
+			<UniqueIdentifier>{E66BABFA-76A1-EB8D-40FF-B940}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler">
+			<UniqueIdentifier>{A0C31C2E-6C01-8850-3B72-C818}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFFT">
+			<UniqueIdentifier>{A51EF345-6145-7F34-5210-584B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFFT\src">
+			<UniqueIdentifier>{CEF5BE20-E223-E8E5-5FDB-C2D7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFFT\libs">
+			<UniqueIdentifier>{1AA69749-353B-6094-7733-4489}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxParticles">
+			<UniqueIdentifier>{0ED252E8-3330-70F0-EB85-B3D9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxParticles\src">
+			<UniqueIdentifier>{8A5D841A-F767-E909-E9D0-4F9E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxStk">
+			<UniqueIdentifier>{25A2F374-DB8F-4351-F249-F76B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxStk\src">
+			<UniqueIdentifier>{5D1C3867-3A93-5948-1EE1-B8FB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxStk\libs">
+			<UniqueIdentifier>{D80803BC-657E-0D0E-51A8-0679}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxStk\libs\STK">
+			<UniqueIdentifier>{9FEFA53B-8C9F-0145-9DA8-1A64}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxStk\libs\STK\include">
+			<UniqueIdentifier>{5D9991ED-DC95-6E79-A57A-6B85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxStk\libs\STK\src">
+			<UniqueIdentifier>{F613231D-6317-9CCB-9D88-B9C6}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.h">
+			<Filter>addons\ofxAssimpModelLoader\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.h">
+			<Filter>addons\ofxAssimpModelLoader\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h">
+			<Filter>addons\ofxAssimpModelLoader\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.h">
+			<Filter>addons\ofxAssimpModelLoader\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpUtils.h">
+			<Filter>addons\ofxAssimpModelLoader\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\ai_assert.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\anim.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\camera.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\cexport.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\cfileio.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\cimport.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\color4.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler\poppack1.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler\pstdint.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler\pushpack1.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\config.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\DefaultLogger.hpp">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\defs.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Exporter.hpp">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Importer.hpp">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\importerdesc.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\IOStream.hpp">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\IOSystem.hpp">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\light.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Logger.hpp">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\LogStream.hpp">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\material.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\matrix3x3.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\matrix4x4.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\mesh.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\metadata.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\NullLogger.hpp">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\postprocess.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\ProgressHandler.hpp">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\quaternion.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\scene.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\texture.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\types.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\vector2.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\vector3.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\version.h">
+			<Filter>addons\ofxAssimpModelLoader\libs\assimp\include\assimp</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTBase.h">
+			<Filter>addons\ofxFFT\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTFile.h">
+			<Filter>addons\ofxFFT\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTLive.h">
+			<Filter>addons\ofxFFT\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFFT\libs\fft.h">
+			<Filter>addons\ofxFFT\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxParticles\src\ofxParticles.h">
+			<Filter>addons\ofxParticles\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\src\ofxStk.h">
+			<Filter>addons\ofxStk\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\ADSR.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Asymp.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BandedWG.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BeeThree.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BiQuad.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Blit.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BlitSaw.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BlitSquare.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BlowBotl.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BlowHole.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Bowed.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BowTable.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Brass.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Chorus.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Clarinet.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Cubic.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Delay.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\DelayA.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\DelayL.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Drummer.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Echo.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Effect.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Envelope.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FileLoop.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FileRead.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FileWrite.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FileWvIn.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FileWvOut.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Filter.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Fir.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Flute.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FM.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FMVoices.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FormSwep.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FreeVerb.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Function.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Generator.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Granulate.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Guitar.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\HevyMetl.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Iir.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Instrmnt.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\JCRev.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\JetTable.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\LentPitShift.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Mandolin.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Mesh2D.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Messager.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\MidiFileIn.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Modal.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\ModalBar.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Modulate.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Moog.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Noise.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\NRev.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\OnePole.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\OneZero.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\PercFlut.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Phonemes.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\PitShift.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Plucked.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\PoleZero.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\PRCRev.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\ReedTable.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Resonate.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Rhodey.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Sampler.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Saxofony.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Shakers.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Simple.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\SineWave.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\SingWave.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Sitar.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Skini.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\SKINImsg.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\SKINItbl.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Sphere.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\StifKarp.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Stk.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\TapDelay.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\TubeBell.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Twang.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\TwoPole.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\TwoZero.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Vector3D.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Voicer.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\VoicForm.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Whistle.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Wurley.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\WvIn.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\WvOut.h">
+			<Filter>addons\ofxStk\libs\STK\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

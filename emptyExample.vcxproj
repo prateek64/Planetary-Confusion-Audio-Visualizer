@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|Win32">
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug|x64">
+			<Configuration>Debug</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|Win32">
+			<Configuration>Release</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|x64">
+			<Configuration>Release</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{7FD42DF7-442E-479A-BA76-D0022F99702A}</ProjectGuid>
+		<Keyword>Win32Proj</Keyword>
+		<RootNamespace>emptyExample</RootNamespace>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<CharacterSet>Unicode</CharacterSet>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+		<Import Project="..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+		<Import Project="..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksRelease.props" />
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+		<Import Project="..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+	</ImportGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+		<Import Project="..\..\..\libs\openFrameworksCompiled\project\vs\openFrameworksDebug.props" />
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<OutDir>bin\</OutDir>
+		<IntDir>obj\$(Configuration)\</IntDir>
+		<TargetName>$(ProjectName)_debug</TargetName>
+		<LinkIncremental>true</LinkIncremental>
+		<GenerateManifest>true</GenerateManifest>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<OutDir>bin\</OutDir>
+		<IntDir>obj\$(Configuration)\</IntDir>
+		<TargetName>$(ProjectName)_debug</TargetName>
+		<LinkIncremental>true</LinkIncremental>
+		<GenerateManifest>true</GenerateManifest>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<OutDir>bin\</OutDir>
+		<IntDir>obj\$(Configuration)\</IntDir>
+		<LinkIncremental>false</LinkIncremental>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<OutDir>bin\</OutDir>
+		<IntDir>obj\$(Configuration)\</IntDir>
+		<LinkIncremental>false</LinkIncremental>
+	</PropertyGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+		<ClCompile>
+			<Optimization>Disabled</Optimization>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+			<WarningLevel>Level3</WarningLevel>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxAssimpModelLoader\libs;..\..\..\addons\ofxAssimpModelLoader\libs\assimp;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\emscripten;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\Win32;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\x64;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\license;..\..\..\addons\ofxAssimpModelLoader\src;..\..\..\addons\ofxFFT\libs;..\..\..\addons\ofxFFT\src;..\..\..\addons\ofxParticles\src;..\..\..\addons\ofxStk\libs;..\..\..\addons\ofxStk\libs\STK;..\..\..\addons\ofxStk\libs\STK\include;..\..\..\addons\ofxStk\libs\STK\src;..\..\..\addons\ofxStk\src</AdditionalIncludeDirectories>
+			<CompileAs>CompileAsCpp</CompileAs>
+		</ClCompile>
+		<Link>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<SubSystem>Console</SubSystem>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<AdditionalDependencies>%(AdditionalDependencies);assimp.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\Win32</AdditionalLibraryDirectories>
+		</Link>
+		<PostBuildEvent />
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+		<ClCompile>
+			<Optimization>Disabled</Optimization>
+			<BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+			<WarningLevel>Level3</WarningLevel>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxAssimpModelLoader\libs;..\..\..\addons\ofxAssimpModelLoader\libs\assimp;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\emscripten;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\Win32;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\x64;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\license;..\..\..\addons\ofxAssimpModelLoader\src;..\..\..\addons\ofxFFT\libs;..\..\..\addons\ofxFFT\src;..\..\..\addons\ofxParticles\src;..\..\..\addons\ofxStk\libs;..\..\..\addons\ofxStk\libs\STK;..\..\..\addons\ofxStk\libs\STK\include;..\..\..\addons\ofxStk\libs\STK\src;..\..\..\addons\ofxStk\src</AdditionalIncludeDirectories>
+			<CompileAs>CompileAsCpp</CompileAs>
+			<MultiProcessorCompilation>true</MultiProcessorCompilation>
+		</ClCompile>
+		<Link>
+			<GenerateDebugInformation>true</GenerateDebugInformation>
+			<SubSystem>Console</SubSystem>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<AdditionalDependencies>%(AdditionalDependencies);assimp.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\x64</AdditionalLibraryDirectories>
+		</Link>
+		<PostBuildEvent />
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+		<ClCompile>
+			<WholeProgramOptimization>false</WholeProgramOptimization>
+			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+			<WarningLevel>Level3</WarningLevel>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxAssimpModelLoader\libs;..\..\..\addons\ofxAssimpModelLoader\libs\assimp;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\emscripten;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\Win32;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\x64;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\license;..\..\..\addons\ofxAssimpModelLoader\src;..\..\..\addons\ofxFFT\libs;..\..\..\addons\ofxFFT\src;..\..\..\addons\ofxParticles\src;..\..\..\addons\ofxStk\libs;..\..\..\addons\ofxStk\libs\STK;..\..\..\addons\ofxStk\libs\STK\include;..\..\..\addons\ofxStk\libs\STK\src;..\..\..\addons\ofxStk\src</AdditionalIncludeDirectories>
+			<CompileAs>CompileAsCpp</CompileAs>
+			<MultiProcessorCompilation>true</MultiProcessorCompilation>
+		</ClCompile>
+		<Link>
+			<IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+			<GenerateDebugInformation>false</GenerateDebugInformation>
+			<SubSystem>Console</SubSystem>
+			<OptimizeReferences>true</OptimizeReferences>
+			<EnableCOMDATFolding>true</EnableCOMDATFolding>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<AdditionalDependencies>%(AdditionalDependencies);assimp.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\Win32</AdditionalLibraryDirectories>
+		</Link>
+		<PostBuildEvent />
+	</ItemDefinitionGroup>
+	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+		<ClCompile>
+			<WholeProgramOptimization>false</WholeProgramOptimization>
+			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+			<WarningLevel>Level3</WarningLevel>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxAssimpModelLoader\libs;..\..\..\addons\ofxAssimpModelLoader\libs\assimp;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\emscripten;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\Win32;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\x64;..\..\..\addons\ofxAssimpModelLoader\libs\assimp\license;..\..\..\addons\ofxAssimpModelLoader\src;..\..\..\addons\ofxFFT\libs;..\..\..\addons\ofxFFT\src;..\..\..\addons\ofxParticles\src;..\..\..\addons\ofxStk\libs;..\..\..\addons\ofxStk\libs\STK;..\..\..\addons\ofxStk\libs\STK\include;..\..\..\addons\ofxStk\libs\STK\src;..\..\..\addons\ofxStk\src</AdditionalIncludeDirectories>
+			<CompileAs>CompileAsCpp</CompileAs>
+		</ClCompile>
+		<Link>
+			<IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+			<GenerateDebugInformation>false</GenerateDebugInformation>
+			<SubSystem>Console</SubSystem>
+			<OptimizeReferences>true</OptimizeReferences>
+			<EnableCOMDATFolding>true</EnableCOMDATFolding>
+			<RandomizedBaseAddress>false</RandomizedBaseAddress>
+			<AdditionalDependencies>%(AdditionalDependencies);assimp.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\addons\ofxAssimpModelLoader\libs\assimp\lib\vs\x64</AdditionalLibraryDirectories>
+		</Link>
+		<PostBuildEvent />
+	</ItemDefinitionGroup>
+	<ItemGroup>
+		<ClCompile Include="src\main.cpp" />
+		<ClCompile Include="src\ofApp.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTBase.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTFile.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxFFT\src\ofxFFTLive.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxFFT\libs\fft.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\ADSR.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Asymp.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BandedWG.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BeeThree.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BiQuad.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Blit.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BlitSaw.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BlitSquare.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BlowBotl.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\BlowHole.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Bowed.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Brass.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Chorus.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Clarinet.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Delay.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\DelayA.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\DelayL.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Drummer.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Echo.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Envelope.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FileLoop.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FileRead.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FileWrite.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FileWvIn.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FileWvOut.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Fir.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Flute.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FM.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FMVoices.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FormSwep.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\FreeVerb.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Granulate.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Guitar.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\HevyMetl.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Iir.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\JCRev.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\LentPitShift.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Mandolin.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Mesh2D.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Messager.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\MidiFileIn.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Modal.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\ModalBar.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Modulate.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Moog.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Noise.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\NRev.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\OnePole.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\OneZero.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\PercFlut.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Phonemes.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\PitShift.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Plucked.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\PoleZero.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\PRCRev.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Resonate.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Rhodey.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Sampler.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Saxofony.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Shakers.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Simple.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\SineWave.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\SingWave.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Sitar.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Skini.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Sphere.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\StifKarp.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Stk.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\TapDelay.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\TubeBell.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Twang.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\TwoPole.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\TwoZero.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Voicer.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\VoicForm.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Whistle.cpp" />
+		<ClCompile Include="..\..\..\addons\ofxStk\libs\STK\src\Wurley.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpAnimation.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpMeshHelper.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpModelLoader.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpTexture.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\src\ofxAssimpUtils.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\ai_assert.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\anim.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\camera.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\cexport.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\cfileio.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\cimport.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\color4.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler\poppack1.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler\pstdint.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Compiler\pushpack1.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\config.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\DefaultLogger.hpp" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\defs.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Exporter.hpp" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Importer.hpp" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\importerdesc.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\IOStream.hpp" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\IOSystem.hpp" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\light.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\Logger.hpp" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\LogStream.hpp" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\material.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\matrix3x3.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\matrix4x4.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\mesh.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\metadata.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\NullLogger.hpp" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\postprocess.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\ProgressHandler.hpp" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\quaternion.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\scene.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\texture.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\types.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\vector2.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\vector3.h" />
+		<ClInclude Include="..\..\..\addons\ofxAssimpModelLoader\libs\assimp\include\assimp\version.h" />
+		<ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTBase.h" />
+		<ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTFile.h" />
+		<ClInclude Include="..\..\..\addons\ofxFFT\src\ofxFFTLive.h" />
+		<ClInclude Include="..\..\..\addons\ofxFFT\libs\fft.h" />
+		<ClInclude Include="..\..\..\addons\ofxParticles\src\ofxParticles.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\src\ofxStk.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\ADSR.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Asymp.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BandedWG.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BeeThree.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BiQuad.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Blit.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BlitSaw.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BlitSquare.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BlowBotl.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BlowHole.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Bowed.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\BowTable.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Brass.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Chorus.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Clarinet.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Cubic.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Delay.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\DelayA.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\DelayL.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Drummer.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Echo.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Effect.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Envelope.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FileLoop.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FileRead.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FileWrite.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FileWvIn.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FileWvOut.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Filter.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Fir.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Flute.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FM.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FMVoices.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FormSwep.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\FreeVerb.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Function.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Generator.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Granulate.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Guitar.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\HevyMetl.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Iir.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Instrmnt.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\JCRev.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\JetTable.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\LentPitShift.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Mandolin.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Mesh2D.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Messager.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\MidiFileIn.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Modal.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\ModalBar.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Modulate.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Moog.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Noise.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\NRev.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\OnePole.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\OneZero.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\PercFlut.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Phonemes.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\PitShift.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Plucked.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\PoleZero.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\PRCRev.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\ReedTable.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Resonate.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Rhodey.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Sampler.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Saxofony.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Shakers.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Simple.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\SineWave.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\SingWave.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Sitar.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Skini.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\SKINImsg.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\SKINItbl.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Sphere.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\StifKarp.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Stk.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\TapDelay.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\TubeBell.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Twang.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\TwoPole.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\TwoZero.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Vector3D.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Voicer.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\VoicForm.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Whistle.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\Wurley.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\WvIn.h" />
+		<ClInclude Include="..\..\..\addons\ofxStk\libs\STK\include\WvOut.h" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="$(OF_ROOT)\libs\openFrameworksCompiled\project\vs\openframeworksLib.vcxproj">
+			<Project>{5837595d-aca9-485c-8e76-729040ce4b0b}</Project>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc">
+			<AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">/D_DEBUG %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/D_DEBUG %(AdditionalOptions)</AdditionalOptions>
+			<AdditionalIncludeDirectories>$(OF_ROOT)\libs\openFrameworksCompiled\project\vs</AdditionalIncludeDirectories>
+		</ResourceCompile>
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties RESOURCE_FILE="icon.rc" />
+		</VisualStudio>
+	</ProjectExtensions>
+</Project>
