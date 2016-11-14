@@ -20,4 +20,4 @@ I have used the following addons :
 
 1. ofxFFT
 2. ofxStk
-3.ofxParticles
+3. ofxParticles
